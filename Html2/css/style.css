@@ -1,0 +1,200 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;200;300;400;500;600;700&family=Quicksand:wght@300;400;500;600;700&display=swap');
+
+body
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:"Josefin Sans";
+    background-color: #e8c7b5;
+}
+
+header
+{
+    background-image: url(img/image\ 3.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+a
+{
+    text-decoration: none;
+}
+
+.navbar-left
+{
+    padding-left: 13%;
+}
+
+.navbar
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar-right
+{
+    display: flex;
+    padding-right: 13%;
+}
+
+.navbar-right > *
+{
+    padding: 20px;
+}
+
+.link
+{
+    color:  #446381;
+}
+
+.button
+{
+    color: white;
+    background: linear-gradient(94.66deg, #4499D9 17.46%, #7367BE 87.77%);
+    border: 1px solid  linear-gradient(94.66deg, #4499D9 17.46%, #7367BE 87.77%);
+    border-radius: 25px;
+    
+}
+
+.information
+{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 14%;
+}
+
+.info-left
+{
+    padding-left: 12%;
+}
+
+.gaming-consoles
+{
+    color:#446381;
+    font-size: 23px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+
+.try-it 
+{
+font-size: 58px;
+padding-top: 20px;
+}
+
+.try-it
+{
+    color: #EB8382;
+}
+
+.Save
+{
+    color: #446381;
+    font-weight: bold;
+}
+
+.try-it > *
+{
+    padding-top: 20px;
+}
+
+.text
+{
+    padding-top: 20px;
+    width: 90%;
+    height: 11%;
+    font-size: 18px;
+    color: #826F8C;
+}
+.button2
+{
+    color: white;
+    background: linear-gradient(94.66deg, #4499D9 17.46%, #7367BE 87.77%);
+    border: 1px solid  linear-gradient(94.66deg, #4499D9 17.46%, #7367BE 87.77%);
+    border-radius: 25px;
+    padding: 20px 20px 20px 20px ;
+    
+}
+
+.href
+{
+   padding-top: 7%;
+}
+
+.info-about-vr
+{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 12%;
+}
+
+.info-left-vr
+{
+    padding-left: 12%;
+}
+
+.about-vr-classes
+{
+    color: #446381;
+    font-size: 23px;
+    
+}
+
+.the-new-vr
+{
+    
+    padding-top: 5%;
+    font-size: 68px;
+    color: #EB8382;
+    
+}
+
+.text-2
+{
+    width: 80%;
+    padding-top: 4%;
+    font-size: 18px;
+    color: #826F8C;
+    
+}
+
+.info-right-vr
+{
+    padding-left: 12%;
+}
+.footer img
+{
+    width: 20%;
+    padding-left: 5%;
+}
+footer
+{
+    padding-top: 10%;
+}
+.footer
+{
+    padding-bottom: 3%;
+    padding-top: 3%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #816F8C;
+}
+
+.end
+{
+    padding-left: 40%;
+    color: #826F8C;
+    font-size: 13px;
+}

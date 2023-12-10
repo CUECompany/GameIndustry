@@ -1,0 +1,101 @@
+@media (max-width:1200px) {
+    .navbar-left img
+    {
+        max-width: 200px;
+    }
+
+    .link
+    {
+        font-size: 14px;
+    }
+    .button
+    {
+        font-size: 10px;
+        padding: 20px 15px 20px 15px ;
+        align-items: center;
+    }
+}
+
+@media (max-width:425px)
+{
+    .navbar
+    {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .navbar-left img
+    {
+        display: none;
+    }
+
+    .link
+    {
+        font-size: 14px;
+    }
+    .button
+    {
+        font-size: 10px;
+        padding: 20px 15px 20px 15px ;
+        align-items: center;
+    }
+
+    .information
+    {
+        display: block;
+        align-items: center;
+    }
+    
+    .info-right img
+    {
+        padding-left: 25%;
+        padding-top: 12%;
+        max-width: 50%;
+    }
+
+    .info-about-vr
+    {
+        display: block;
+        
+    }
+    .info-left-vr img
+    {
+        padding-left: 15%;
+        padding-top: 12%;
+        max-width: 50%;
+
+    }
+
+    .about-vr-classes
+    {
+        padding-top: 14%;
+    }
+    .the-new-vr
+    {
+        font-size: 50px;
+    }
+
+    .footer img
+    {
+        width: 20%;
+    }
+    footer
+    {
+        padding-top: 10%;
+    }
+    .footer
+    {
+        padding-bottom: 3%;
+        padding-top: 3%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: 1px solid #816F8C;
+    }
+
+    .end
+    {
+        padding-left: 40%;
+        color: #826F8C;
+    }
+}
